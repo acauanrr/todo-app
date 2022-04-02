@@ -49,7 +49,7 @@ const Home = ({ todos }: PostProps) => {
         </form>
         <div>
           {todos?.map((item, index) => (
-            <div key={item.id} className="flex justify-center">
+            <div className="flex justify-center">
               <div className=" relative justify-center mt-6">
                 <div className="absolute flex top-0 right-0 p-3 space-x-1">
                   <span>
